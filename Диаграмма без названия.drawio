@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T15:31:47.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0 (Edition Yx GX)" etag="htZZOAVi6Xm_kosd0AXV" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T15:34:22.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0 (Edition Yx GX)" etag="0CRR456IUPzLvjG8yZks" version="22.1.5" type="github">
   <diagram name="Страница — 1" id="jEZeyFRYR0pZWt1uuLXT">
-    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="v9ghVOp1eAuB-JtDafj1-36" value="VPN Client" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-36" value="VPN Client" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="v9ghVOp1eAuB-JtDafj1-37" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-36">
           <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
@@ -30,8 +30,8 @@
         <mxCell id="v9ghVOp1eAuB-JtDafj1-43" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="v9ghVOp1eAuB-JtDafj1-36" source="v9ghVOp1eAuB-JtDafj1-40" target="v9ghVOp1eAuB-JtDafj1-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v9ghVOp1eAuB-JtDafj1-44" value="Local ISP" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="444.5" y="128" width="285.5" height="570" as="geometry" />
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-44" value="Local ISP" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="285.5" height="570" as="geometry" />
         </mxCell>
         <mxCell id="v9ghVOp1eAuB-JtDafj1-45" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
           <mxGeometry x="60" y="40" width="30" height="30" as="geometry" />
@@ -66,8 +66,8 @@
         <mxCell id="v9ghVOp1eAuB-JtDafj1-53" value="valid&lt;br&gt;request" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
           <mxGeometry x="155.5" y="310" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="v9ghVOp1eAuB-JtDafj1-54" value="VPN Server" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
-          <mxGeometry x="730" y="128" width="274.5" height="570" as="geometry" />
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-54" value="VPN Server" style="swimlane;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="820" y="210" width="274.5" height="570" as="geometry" />
         </mxCell>
         <mxCell id="v9ghVOp1eAuB-JtDafj1-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-54" source="v9ghVOp1eAuB-JtDafj1-56" target="v9ghVOp1eAuB-JtDafj1-59">
           <mxGeometry relative="1" as="geometry" />
