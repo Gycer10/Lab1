@@ -1,9 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T15:30:57.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0 (Edition Yx GX)" version="22.1.5" etag="fRpea5wqCDbDcMw9f1j1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T15:31:47.589Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0 (Edition Yx GX)" etag="htZZOAVi6Xm_kosd0AXV" version="22.1.5" type="github">
   <diagram name="Страница — 1" id="jEZeyFRYR0pZWt1uuLXT">
-    <mxGraphModel>
+    <mxGraphModel dx="1393" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-36" value="VPN Client" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="164.5" y="128" width="280" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-37" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-36">
+          <mxGeometry x="100" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-38" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="v9ghVOp1eAuB-JtDafj1-36" source="v9ghVOp1eAuB-JtDafj1-37" target="v9ghVOp1eAuB-JtDafj1-39">
+          <mxGeometry x="100" y="40" as="geometry">
+            <mxPoint x="115" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-39" value="enters company&#39;s&#xa;site" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-36">
+          <mxGeometry x="60" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-40" value="logs into his/her&#xa;working&#xa;internal network" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-36">
+          <mxGeometry x="60" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-41" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="v9ghVOp1eAuB-JtDafj1-36" source="v9ghVOp1eAuB-JtDafj1-39" target="v9ghVOp1eAuB-JtDafj1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-42" value="calls local Internet&#xa;Server Provider" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-36">
+          <mxGeometry x="60" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-43" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="v9ghVOp1eAuB-JtDafj1-36" source="v9ghVOp1eAuB-JtDafj1-40" target="v9ghVOp1eAuB-JtDafj1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-44" value="Local ISP" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="128" width="285.5" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-45" value="" style="ellipse;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
+          <mxGeometry x="60" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="v9ghVOp1eAuB-JtDafj1-44" source="v9ghVOp1eAuB-JtDafj1-45" target="v9ghVOp1eAuB-JtDafj1-47">
+          <mxGeometry x="40" y="20" as="geometry">
+            <mxPoint x="55" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-47" value="keeps connection to&#xa;the Internet" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
+          <mxGeometry x="20" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-48" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-44" source="v9ghVOp1eAuB-JtDafj1-47" target="v9ghVOp1eAuB-JtDafj1-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-44" source="v9ghVOp1eAuB-JtDafj1-50" target="v9ghVOp1eAuB-JtDafj1-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-50" value="receives VPN&#xa;connection&#xa;request from user" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
+          <mxGeometry x="20" y="325" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-51" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-44" source="v9ghVOp1eAuB-JtDafj1-52" target="v9ghVOp1eAuB-JtDafj1-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-52" value="waits for the&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;local connection&lt;br style=&quot;border-color: var(--border-color); padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;request&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
+          <mxGeometry x="20" y="212" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-53" value="valid&lt;br&gt;request" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-44">
+          <mxGeometry x="155.5" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-54" value="VPN Server" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="730" y="128" width="274.5" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-54" source="v9ghVOp1eAuB-JtDafj1-56" target="v9ghVOp1eAuB-JtDafj1-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-56" value="sends information&#xa;to the ISP connected&#xa;to LAN company&#39;s&#xa;network" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-54">
+          <mxGeometry x="85" y="162" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-57" value="" style="ellipse;shape=endState;fillColor=#000000;strokeColor=#ff0000" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-54">
+          <mxGeometry x="130" y="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-54" source="v9ghVOp1eAuB-JtDafj1-59" target="v9ghVOp1eAuB-JtDafj1-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-59" value="maintains stable&#xa;and safe connection&#xa;to the user" style="" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-54">
+          <mxGeometry x="85" y="285" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-60" value="client logs&lt;br&gt;out" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="v9ghVOp1eAuB-JtDafj1-54">
+          <mxGeometry x="105" y="382" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-61" value="no" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="v9ghVOp1eAuB-JtDafj1-54" source="v9ghVOp1eAuB-JtDafj1-60" target="v9ghVOp1eAuB-JtDafj1-59">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-160" y="392" as="sourcePoint" />
+            <mxPoint y="392" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="422" />
+              <mxPoint x="250" y="318" />
+              <mxPoint x="205" y="318" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-62" value="" style="endArrow=open;strokeColor=#FF0000;endFill=1;rounded=0" edge="1" parent="1" source="v9ghVOp1eAuB-JtDafj1-42" target="v9ghVOp1eAuB-JtDafj1-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-63" value="no" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="v9ghVOp1eAuB-JtDafj1-53">
+          <mxGeometry x="-0.6807" y="-10" relative="1" as="geometry">
+            <mxPoint x="500" y="360" as="sourcePoint" />
+            <mxPoint x="580" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="260" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-64" value="yes" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="v9ghVOp1eAuB-JtDafj1-53" target="v9ghVOp1eAuB-JtDafj1-56">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="430" as="sourcePoint" />
+            <mxPoint x="770" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="478" />
+              <mxPoint x="760" y="323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v9ghVOp1eAuB-JtDafj1-65" value="yes" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="v9ghVOp1eAuB-JtDafj1-57">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="875" y="590" as="sourcePoint" />
+            <mxPoint x="670" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
